@@ -55,7 +55,8 @@ class ViewController: UIViewController {
         let question3 = TriviaQuestion(question: "What is the name of Peter Quill’s alter-ego?", answers: ["Star-Lord", "Groot", "Drax", "Yondu"], correctAnswerIndex: 0)
         let question4 = TriviaQuestion(question: "Captain America’s shield is made of:", answers: ["adamantium", "vibranium", "kryptonite", "chrome"], correctAnswerIndex: 1)
         let question5 = TriviaQuestion(question: "Where did Iron Man first face off against Whiplash?", answers: ["monaco", "Paris", "Glasgow, Kentucky", "Wal-mart"], correctAnswerIndex: 0)
-        questions = [question1, question2, question3, question4, question5]
+        let question6 = TriviaQuestion(question: "What race is Ronan the Accuser?", answers: ["Kree", "Human", "Skrull", "Xandarian"], correctAnswerIndex: 0)
+        questions = [question1, question2, question3, question4, question5, question6]
         
     }
     //this function will be used to get a random question from our array of questions

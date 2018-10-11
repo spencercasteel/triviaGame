@@ -105,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="2439" y="132"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="hre-Ox-edD">
             <objects>
-                <viewController id="boc-py-qzf" sceneMemberID="viewController">
+                <viewController id="boc-py-qzf" customClass="SettingsScreen" customModule="triviaGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gVc-FY-hxs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -184,6 +184,21 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lqp-BM-Eco"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="Vg2-d5-SZH">
+                        <barButtonItem key="rightBarButtonItem" title="submit" id="t5J-pY-fal">
+                            <connections>
+                                <action selector="submitButtonTapped:" destination="boc-py-qzf" id="n7Q-5F-nas"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="answer1TextFeild" destination="8XE-zE-HE6" id="U1D-7N-vX5"/>
+                        <outlet property="answer2TextFeild" destination="3e0-J7-HaC" id="w6W-sp-6RF"/>
+                        <outlet property="answer3TextFeild" destination="30A-tz-7ul" id="rPp-qD-Py3"/>
+                        <outlet property="answer4TextFeild" destination="NWe-J1-PLo" id="GZ8-4w-8tS"/>
+                        <outlet property="correctAnswerSegmentedControl" destination="Lov-9l-9YX" id="f9Q-vH-Moc"/>
+                        <outlet property="questionTextFeild" destination="7jB-cw-tJG" id="ccf-XW-Hk1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fog-aR-pFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

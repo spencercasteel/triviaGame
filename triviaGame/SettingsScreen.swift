@@ -10,6 +10,14 @@ import UIKit
 
 class SettingsScreen: UIViewController {
 
+    @IBOutlet weak var questionTextFeild: UITextField!
+    @IBOutlet weak var answer1TextFeild: UITextField!
+    @IBOutlet weak var answer2TextFeild: UITextField!
+    @IBOutlet weak var answer3TextFeild: UITextField!
+    @IBOutlet weak var answer4TextFeild: UITextField!
+    @IBOutlet weak var correctAnswerSegmentedControl: UISegmentedControl!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,4 +35,6 @@ class SettingsScreen: UIViewController {
     }
     */
 
+    @IBAction func submitButtonTapped(_ sender: Any) {
+    }
 }

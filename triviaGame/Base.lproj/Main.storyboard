@@ -198,11 +198,13 @@
                         <outlet property="answer4TextFeild" destination="NWe-J1-PLo" id="GZ8-4w-8tS"/>
                         <outlet property="correctAnswerSegmentedControl" destination="Lov-9l-9YX" id="f9Q-vH-Moc"/>
                         <outlet property="questionTextFeild" destination="7jB-cw-tJG" id="ccf-XW-Hk1"/>
+                        <segue destination="cxN-YT-FHP" kind="unwind" identifier="unwindToTitleScreen" unwindAction="unwindToTitleScreenWithSegue:" id="uvj-iw-xEs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fog-aR-pFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="cxN-YT-FHP" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2078" y="782"/>
+            <point key="canvasLocation" x="1694" y="899"/>
         </scene>
         <!--Marvel Trivia Game-->
         <scene sceneID="R0j-S7-Zbg">

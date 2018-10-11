@@ -57,8 +57,8 @@ class ViewController: UIViewController {
         let question5 = TriviaQuestion(question: "Where did Iron Man first face off against Whiplash?", answers: ["monaco", "Paris", "Glasgow, Kentucky", "Wal-mart"], correctAnswerIndex: 0)
         let question6 = TriviaQuestion(question: "What race is Ronan the Accuser?", answers: ["Kree", "Human", "Skrull", "Xandarian"], correctAnswerIndex: 0)
         let question7 = TriviaQuestion(question: "By which of these other monikers is Odin known?", answers: ["BeardPapa", "The AllFather", "The WiseFather", "The Truthsayer"], correctAnswerIndex: 1)
-        questions = [question1, question2, question3, question4, question5, question6, question7]
-        
+        questions.append(contentsOf: [question1, question2, question3, question4, question5, question6, question7]
+)
     }
     //this function will be used to get a random question from our array of questions
     func getNewQuestion() {
@@ -134,5 +134,7 @@ class ViewController: UIViewController {
         
         self.present(resetAlert, animated: true, completion: nil)
     }
+    
+    //unwind segue to this screen
 }
 

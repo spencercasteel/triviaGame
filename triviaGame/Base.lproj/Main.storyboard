@@ -105,7 +105,7 @@
             </objects>
             <point key="canvasLocation" x="2439" y="132"/>
         </scene>
-        <!--Title-->
+        <!--Make your own question-->
         <scene sceneID="hre-Ox-edD">
             <objects>
                 <viewController id="boc-py-qzf" customClass="SettingsScreen" customModule="triviaGame" customModuleProvider="target" sceneMemberID="viewController">
@@ -184,7 +184,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lqp-BM-Eco"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="Vg2-d5-SZH">
+                    <navigationItem key="navigationItem" title="Make your own question" id="Vg2-d5-SZH">
                         <barButtonItem key="rightBarButtonItem" title="submit" id="t5J-pY-fal">
                             <connections>
                                 <action selector="submitButtonTapped:" destination="boc-py-qzf" id="n7Q-5F-nas"/>

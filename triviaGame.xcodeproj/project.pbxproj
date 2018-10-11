@@ -14,6 +14,7 @@
 		43371F99216BC74B007D71EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43371F97216BC74B007D71EA /* LaunchScreen.storyboard */; };
 		43399278216CEA340042E1B6 /* triviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43399277216CEA340042E1B6 /* triviaQuestion.swift */; };
 		435041C2216D31D7004B2F02 /* TitleScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435041C1216D31D7004B2F02 /* TitleScreenViewController.swift */; };
+		43F87A2F216FA4A200745C3D /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F87A2E216FA4A200745C3D /* SettingsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		43371F9A216BC74B007D71EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43399277216CEA340042E1B6 /* triviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triviaQuestion.swift; sourceTree = "<group>"; };
 		435041C1216D31D7004B2F02 /* TitleScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreenViewController.swift; sourceTree = "<group>"; };
+		43F87A2E216FA4A200745C3D /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				43371F9A216BC74B007D71EA /* Info.plist */,
 				43399277216CEA340042E1B6 /* triviaQuestion.swift */,
 				435041C1216D31D7004B2F02 /* TitleScreenViewController.swift */,
+				43F87A2E216FA4A200745C3D /* SettingsScreen.swift */,
 			);
 			path = triviaGame;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				43399278216CEA340042E1B6 /* triviaQuestion.swift in Sources */,
 				43371F91216BC74A007D71EA /* ViewController.swift in Sources */,
 				43371F8F216BC74A007D71EA /* AppDelegate.swift in Sources */,
+				43F87A2F216FA4A200745C3D /* SettingsScreen.swift in Sources */,
 				435041C2216D31D7004B2F02 /* TitleScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
